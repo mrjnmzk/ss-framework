@@ -1,0 +1,12 @@
+.container {
+  padding: 16px;
+  /* width: 1200px; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.text_container {
+  width: 300px;
+}
