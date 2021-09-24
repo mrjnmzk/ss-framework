@@ -10,7 +10,7 @@ export default function Main() {
         <div>
             <div className={styles.container}>
                 <div>
-                    <img src='https://images.pexels.com/photos/331990/pexels-photo-331990.jpeg?cs=srgb&dl=pexels-kaique-rocha-331990.jpg&fm=jpg' width='400' height='300'/>
+                    <img src='https://images.pexels.com/photos/331990/pexels-photo-331990.jpeg?cs=srgb&dl=pexels-kaique-rocha-331990.jpg&fm=jpg' width='400' height='300' alt="main"/>
                 
                 </div>
                 <div className={styles.text_container}>
