@@ -7,13 +7,12 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color:rgb(226, 229, 228);
+  background-color: rgb(226, 229, 228);
 }
 
 .menu_outer :hover {
-color: white;
-border-radius: 10%;
-
+  color: white;
+  border-radius: 10%;
 }
 .navcontainer {
   display: flex;
@@ -22,18 +21,17 @@ border-radius: 10%;
 }
 
 .navcontainer ul {
-  
   margin: 0;
   padding: 0;
   padding-top: 2%;
   list-style-type: none;
   text-align: center;
   flex: 1;
-  }
+}
 
 .navcontainer ul li {
   display: inline;
-    }
+}
 
 .navcontainer ul li a {
   text-decoration: none;
@@ -51,5 +49,5 @@ border-radius: 10%;
   width: 30%;
   height: auto;
   justify-content: left;
-  align-items: left; 
+  align-items: left;
 }
