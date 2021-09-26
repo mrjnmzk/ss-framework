@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  margin-top: 50px;
+}
+
+.card {
+  list-style: none;
+  width: 190px;
+  border: solid 1px;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.btn {
+  padding: 10px 20px 10px 20px;
+  color: #fff;
+  background-color: black;
+  border-radius: 11%;
+}
