@@ -1,6 +1,7 @@
 import React from 'react';
 import navbar from './nav.module.css';
 import logo from './images/react.png';
+import {FaSearch} from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 
@@ -33,7 +34,13 @@ import { Link } from 'react-router-dom';
               </li>
             </ul>
           </div>
-          
+            <div className={navbar.box}>
+               <div className={navbar.container}>
+                  <span className={navbar.icon}> <FaSearch /> 
+                  <input placeholder="Search..." />
+                  </span>
+                </div>      
+            </div> 
         </div>
       )
       }
