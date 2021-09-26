@@ -2,6 +2,7 @@ import React from 'react';
 import CardData from './cardData';
 import styles from './catalogPage.module.css'
 
+
 export default function CatalogProduct() {
     return (
         
