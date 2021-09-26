@@ -1,11 +1,14 @@
 import React from 'react';
 import CardData from './cardData';
 import styles from './catalogPage.module.css'
+import Filter from './filter'
 
 
 export default function CatalogProduct() {
     return (
-        
+        <>
+            <Filter />
+           
         <ul className={styles.container}>
             {CardData.map(val => {
                 return (
@@ -20,7 +23,8 @@ export default function CatalogProduct() {
                     }
                 )
             }
-        </ul>
+            </ul>
+        </>    
     )
 }
 
