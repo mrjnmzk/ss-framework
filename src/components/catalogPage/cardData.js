@@ -26,7 +26,7 @@ const CardData = [
     {
         id: 4,
         imgUrl: "https://images.pexels.com/photos/5704187/pexels-photo-5704187.jpeg?cs=srgb&dl=pexels-anna-khomutova-5704187.jpg&fm=jpg",
-        title: "Carm Clothing",
+        title: "Warm",
         subtitle: "Lorem Ipsum is simply dummy text of the printing and typesetting industry..",
         price: "400 UAH" 
         
