@@ -1,6 +1,7 @@
 import React from 'react';
 import CardData from './cardData';
 
+
 export default function CatalogProduct() {
     return (
         
