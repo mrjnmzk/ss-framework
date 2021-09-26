@@ -11,11 +11,8 @@ function App() {
     <>
       
       <Nav />
-      
-      <CatalogPage />
-      {/* <Main /> */}
-      {/* <NumberList  /> */}
-      <Footer /> 
+      <Main />
+      <Footer />
     </>
   ); 
 

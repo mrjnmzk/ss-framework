@@ -1,6 +1,7 @@
 import React from 'react';
 import navbar from './nav.module.css';
 import logo from './images/react.png';
+import {FaSearch} from 'react-icons/fa';
 
   
   export default function Nav() {
@@ -26,7 +27,13 @@ import logo from './images/react.png';
               </li>
             </ul>
           </div>
-          
+            <div className={navbar.box}>
+               <div className={navbar.container}>
+                  <span className={navbar.icon}> <FaSearch /> 
+                  <input placeholder="Search..." />
+                  </span>
+                </div>      
+            </div> 
         </div>
       )
       }
