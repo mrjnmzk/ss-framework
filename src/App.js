@@ -17,9 +17,9 @@ function App() {
         <Route exact path='/' component={Main} />
         <Route exact path='/catalog' component={CatalogPage} />
         <Redirect to='/' />  
-     </Switch>
-        <Footer />
-        </BrowserRouter>
+      </Switch>
+      <Footer />
+      </BrowserRouter>
     </>
   ); 
 
