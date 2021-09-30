@@ -30,6 +30,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+
 }
 
 .button {
@@ -37,4 +38,8 @@
   color: #fff;
   background-color: black;
   border-radius: 11%;
+}
+
+.content {
+  display: block;
 }
