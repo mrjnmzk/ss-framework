@@ -5,6 +5,7 @@ import Main from './components/main/main';
 import Footer from './components/footer/footer';
 import Nav from './components/nav/nav';
 import CatalogPage from './components/catalogPage/catalogPage';
+import PageItem from './components/catalogPage/pageItem';
 
 
 
@@ -16,10 +17,11 @@ function App() {
       <Switch>
         <Route exact path='/' component={Main} />
         <Route exact path='/catalog' component={CatalogPage} />
+        <Route exact path='/product' component={PageItem} />
         <Redirect to='/' />  
-     </Switch>
-        <Footer />
-        </BrowserRouter>
+      </Switch>
+      <Footer />
+      </BrowserRouter>
     </>
   ); 
 

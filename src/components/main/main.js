@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './main.module.css';
 import Product from './product'
-import MainButton from './mainButton';
+import Page from './mainButton';
 
 
 
@@ -41,7 +41,7 @@ export default function Main() {
                     />
                 </div>
             </div>
-            <MainButton />
+            <Page />
         </div>
         
     )

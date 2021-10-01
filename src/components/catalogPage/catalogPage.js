@@ -4,8 +4,13 @@ import styles from './catalogPage.module.css';
 import Filter from './filter';
 import PageItem from './pageItem';
 import { Link } from 'react-router-dom';
+<<<<<<< HEAD
 import navbar from '../nav/nav.module.css';
 import {FaSearch} from 'react-icons/fa';
+=======
+
+
+>>>>>>> 59efb8992de9d4cc4e3cb8cfa77709ffd7c3a613
 
 export default function CatalogProduct() {
     
