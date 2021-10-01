@@ -1,20 +1,18 @@
-import React from 'react';
+import React  from 'react';
 import navbar from './nav.module.css';
 import logo from './images/react.png';
-import {FaSearch} from 'react-icons/fa';
+// import {FaSearch} from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+// import CardData from '../catalogPage/cardData'
 
-
-
-  
   export default function Nav() {
       return (
         <div className={navbar.menu_outer}>
           <div className={navbar.alignleft}>
             <div className ={navbar.logo}>
-                <a href="#">
+                <Link to="/">
                 <img title="logo" src={logo} alt="logo" wight = "70" height ="70"/>
-                </a>
+                </Link>
             </div>
           </div>
           <div className={navbar.navcontainer}>
@@ -30,21 +28,18 @@ import { Link } from 'react-router-dom';
               </li>
               
               <li>
-                <a href="#">Cart</a>
+                <Link to="/">Cart</Link>
               </li>
             </ul>
           </div>
-            <div className={navbar.box}>
+            {/* <div className={navbar.box}>
                <div className={navbar.container}>
                   <span className={navbar.icon}> <FaSearch /> 
-                  <input placeholder="Search..." />
+                  <input placeholder="Search..." 
+                                   />
                   </span>
                 </div>      
-            </div> 
+            </div>  */}
         </div>
       )
       }
-  
-    
-     
-    
